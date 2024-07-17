@@ -1,5 +1,7 @@
 const { Client, GatewayIntentBits, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, REST, Routes, Partials, Events } = require('discord.js');
 const noblox = require('noblox.js');
+require('dotenv').config();
+
 
 // Replace with your bot token and Roblox credentials
 const DISCORD_TOKEN = process.env.DISCORD_TOKEN;;
