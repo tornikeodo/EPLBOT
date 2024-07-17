@@ -19,7 +19,7 @@ const client = new Client({
 client.once(Events.ClientReady, async () => {
     console.log(`Logged in as ${client.user.tag}`);
     client.user.setPresence({
-        activities: [{ name: 'insert your status here' }],
+        activities: [{ name: 'Watching Over EPL' }],
         status: 'online',
     });
 
